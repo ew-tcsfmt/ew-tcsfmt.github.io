@@ -1,0 +1,135 @@
+h1 {
+    font-size: 100px;
+    text-align: center;
+  }
+  
+  .bg-home {
+    background-image: url("../images/slideshow5.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white;
+    font-family: 'Oswald', sans-serif;
+  }
+  html {
+    height: 100%;
+    margin: 0px;
+  }
+  body {
+    margin: 0px;
+    font-family: "roboto condensed";
+    height: 100%;
+  }
+  
+  
+  
+  
+  
+  a {
+    text-decoration: none;
+  }
+  a:hover {
+    color: #bcbfa3;
+    text-decoration: underline;
+  }
+  header {
+    margin-top: 0px;
+    width: 100%;
+  }
+  
+  h2,
+  h3 {
+    text-align: center;
+    font-size: 35px;
+  }
+  
+  #ctr {
+    text-align: center;
+  }
+  
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #89b399;
+  }
+  
+  nav li {
+    float: right;
+  }
+  
+  nav li a {
+    display: block;
+    color: white;
+    /*   text-align: center; */
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  footer li a {
+    display: block;
+    color: white;
+    /*   text-align: center; */
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  nav li a:hover {
+    color: #6e6460;
+    /* background-color: #6e6460; */
+    text-decoration: none;
+  }
+  
+  footer li {
+    display: inline-block;
+  }
+
+  footer li a:hover {
+    color: #6e6460;
+  }
+  
+  footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px 16px;
+    overflow: hidden;
+    background-color: #89b399;
+    color: #6e6460;
+  }
+  /* Style inputs with type="text", select elements and textareas */
+  input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */  
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #89b399;
+    background-color: #;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #89b399;
+}
+
+/* Add a background color and some padding around the form */
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
